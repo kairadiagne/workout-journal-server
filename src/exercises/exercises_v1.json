@@ -1,0 +1,762 @@
+[
+    {
+        "id": "f1d2d2f9-754f-4a9e-93c4-6e9f6f4c026f",
+        "name": "Hack Squat",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "mechanic": "Compound",
+        "equipment": "Machine",
+        "primary_muscle_groups": [
+            {
+                "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
+                "name": "quadriceps"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "36b69080-8548-487b-9455-0d07a905142f",
+                "name": "calves"
+            },
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "glutes"
+            },
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            }
+        ]
+    },
+    {
+        "id": "d99f50b5-b4d3-432a-bf7b-7f9e48c12a7f",
+        "name": "Hip Thrust Machine",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "mechanic": "Compound",
+        "equipment": "Machine",
+        "primary_muscle_groups": [
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            },
+            {
+                "id": "e2d6a970-7eda-4030-8752-32d0af0c4151",
+                "name": "Lower Back"
+            }
+        ]
+    },
+    {
+        "id": "492cebe4-c53d-4d95-bbc2-056b54c6cb6a",
+        "name": "Leg Press",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Machine",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
+                "name": "Quadriceps"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "36b69080-8548-487b-9455-0d07a905142f",
+                "name": "calves"
+            },
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            },
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            }
+        ]
+    },
+    {
+        "id": "3187dffc-fd5b-49da-81ae-8f0d4ff1c0a4",
+        "name": "Seated Calf Raise",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "mechanic": "Isolation",
+        "equipment": "Machine",
+        "primary_muscle_groups": [
+            {
+                "id": "36b69080-8548-487b-9455-0d07a905142f",
+                "name": "Calves"
+            }
+        ],
+        "secondary_muscle_groups": []
+        
+    },
+    {
+        "id": "d1a1f4c5-030a-4f1a-a9b1-6a8a5b6c3d7b",
+        "name": "Standing Calf Raise",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "mechanic": "Isolation",
+        "equipment": "Bodyweight",
+        "primary_muscle_groups": [
+            {
+                "id": "36b69080-8548-487b-9455-0d07a905142f",
+                "name": "Calves"
+            }
+        ],
+        "secondary_muscle_groups": []
+    },
+    {
+        "id": "d411bc57-c2ed-4e75-8a82-834c5ed5e7b1",
+        "name": "Box Jumps",
+        "difficulty": "Intermediate",
+        "force_type": "Plyometric",
+        "equipment": "Other",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
+                "name": "Quadriceps"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            },
+            {
+                "id": "36b69080-8548-487b-9455-0d07a905142f",
+                "name": "Calves"
+            },
+            {
+                "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
+                "name": "Core"
+            }
+        ]
+    },
+    {
+        "id": "a3778d5f-b128-45ea-bdc9-e4678e1f5642",
+        "name": "Trap Bar Romanian Deadlift",
+        "categories": [
+            "Barbell"
+        ],
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Barbell",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            },
+            {
+                "id": "e2d6a970-7eda-4030-8752-32d0af0c4151",
+                "name": "Lower Back"
+            }
+        ]
+    },
+    {
+        "id": "2d550e4e-9e3e-4a2c-8502-0c4b64d2bcb5",
+        "name": "Squat",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Barbell",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
+                "name": "Quadriceps"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            },
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            }
+        ]
+    },
+    {
+        "id": "4821b0e1-fb10-4f65-88c3-1adca55f7ef9",
+        "name": "Standing Abductor Machine",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "7c9064fd-55ae-4f25-a8c2-b378ebb307cf",
+                "name": "Abductors"
+            }
+        ]
+    },
+    {
+        "id": "11cb7521-ef28-4dcb-9dc5-5f850b8d3f12",
+        "name": "Leg Extension",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
+                "name": "Quadriceps"
+            }
+        ],
+        "secondary_muscle_groups": []
+    },
+    {
+        "id": "345a41bc-8d58-4f6f-bc4d-e2a84d640176",
+        "name": "Prone Leg Curl",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            }
+        ],
+        "secondary_muscle_groups": []
+    },
+    {
+        "id": "9168fa55-649b-4d27-9a5b-640b22962a92",
+        "name": "Lat Pulldown",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
+                "name": "Lats"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
+                "name": "Biceps"
+            },
+            {
+                "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
+                "name": "Upper Back"
+            }
+        ]
+    },
+    {
+        "id": "5fb5c8e8-3a9c-4182-8bc9-174d0fbc64c4",
+        "name": "Bench Press",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Barbell",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
+                "name": "Chest"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
+                "name": "Triceps"
+            },
+            {
+                "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
+                "name": "Shoulders"
+            }
+        ]
+    },
+    {
+        "id": "6466e184-61f5-4cf2-87ef-4fb8a7af9a46",
+        "name": "Shoulder Press Machine",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
+                "name": "Triceps"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
+                "name": "Shoulders"
+            }
+        ]
+    },
+    {
+        "id": "c4bcda96-c998-4b6c-bb98-dfb1a78bc9f3",
+        "name": "Dumbbell Bicep Curl",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Dumbbell",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
+                "name": "Biceps"
+            }
+        ],
+        "secondary_muscle_groups": []
+    },
+    {
+        "id": "81fcd2a3-b49b-478b-9116-95e53b94d983",
+        "name": "Tricep Push Down",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
+                "name": "Triceps"
+            }
+        ],
+        "secondary_muscle_groups": []
+    },
+    {
+        "id": "a93e104a-458a-42a7-9bbf-abe1b5c923c3",
+        "name": "Triceps Overhead Extension",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
+                "name": "Triceps"
+            }
+        ],
+        "secondary_muscle_groups": []
+    },
+    {
+        "id": "7aa8a48b-92c4-4855-937a-d38c98f77c4c",
+        "name": "Seated Row",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
+                "name": "Lats"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
+                "name": "Upper Back"
+            },
+            {
+                "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
+                "name": "Biceps"
+            }
+        ]
+    },
+    {
+        "id": "da2a23e8-8f5b-4668-8281-5927f53c69d8",
+        "name": "Machine Reverse Fly",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "d1e447e6-aeae-4603-a34f-97b592b7db24",
+                "name": "Rear Deltoids"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
+                "name": "Upper Back"
+            }
+        ]
+    },
+    {
+        "id": "cf0e4725-4782-4e58-a643-31f834b3ae36",
+        "name": "Pull-up",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Bodyweight",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
+                "name": "Lats"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
+                "name": "Biceps"
+            },
+            {
+                "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
+                "name": "Upper Back"
+            }
+        ]
+    },
+    {
+        "id": "ca59e194-56e1-44f0-9143-ec1428c10a1f",
+        "name": "Dips",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Machine",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
+                "name": "Triceps"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
+                "name": "Chest"
+            },
+            {
+                "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
+                "name": "Shoulders"
+            }
+        ]
+    },
+    {
+        "id": "4d32e070-0e80-4fd7-bb67-681fae8fa453",
+        "name": "Chest Press",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Machine",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
+                "name": "Chest"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
+                "name": "Shoulders"
+            },
+            {
+                "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
+                "name": "Triceps"
+            }
+        ]
+    },
+    {
+        "id": "81e4a64f-5761-42b5-a4a7-8b21a82d3a96",
+        "name": "Machine Chest Fly",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
+                "name": "Chest"
+            }
+        ],
+        "secondary_muscle_groups": []
+    },
+    {
+        "id": "fa649072-fcfc-4b78-b7ab-f7b5a07f73df",
+        "name": "Dumbbell Shoulder Press",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Dumbbell",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
+                "name": "Shoulders"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
+                "name": "Triceps"
+            }
+        ]
+    },
+    {
+        "id": "e070b3b2-34b4-497a-bfc5-97be218b5b70",
+        "name": "Bulgarian Split Squat",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Dumbbell",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
+                "name": "Quadriceps"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            },
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            }
+        ]
+    },
+    {
+        "id": "1da50632-1b08-4c61-b529-17b56a26bb62",
+        "name": "Dumbbell Pullover",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Dumbbell",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
+                "name": "Chest"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
+                "name": "Lats"
+            },
+            {
+                "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
+                "name": "Shoulders"
+            }
+        ]
+    },
+    {
+        "id": "8bb2a41b-13db-4b3f-b7a2-3adbd3187d04",
+        "name": "Cable Shoulder Front Raise",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
+                "name": "Shoulders"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "f6f092a3-9f4b-4a1e-8d12-f34562f1ef3c",
+                "name": "Front Deltoids"
+            }
+        ]
+    },
+    {
+        "id": "c90a889a-0719-4a32-8132-27fdb6d6fd6f",
+        "name": "Cable Shoulder Fly",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
+                "name": "Shoulders"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "f4e22713-2f8f-4a87-84c2-48dc7d9e28b0",
+                "name": "Lateral Deltoids"
+            }
+        ]
+    },
+    {
+        "id": "cd2f4533-0fc0-4be3-9e50-5005aa3e04ee",
+        "name": "Cable Face Pull",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "d1e447e6-aeae-4603-a34f-97b592b7db24",
+                "name": "Rear Deltoids"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
+                "name": "Upper Back"
+            },
+            {
+                "id": "e1d3748a-bb64-4b67-9c3b-0c0b3c5c095d",
+                "name": "Traps"
+            }
+        ]
+    },
+    {
+        "id": "d29a1842-d7ba-4b23-8a89-c0619456f0e3",
+        "name": "Barbell Bent Over Row",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Barbell",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
+                "name": "Lats"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
+                "name": "Upper Back"
+            },
+            {
+                "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
+                "name": "Biceps"
+            }
+        ]
+    },
+    {
+        "id": "83780ac5-5d4f-473e-bd1a-55b9e15ed8e9",
+        "name": "Cable Knee Raises",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
+                "name": "Core"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "a9ac8682-338e-4369-959a-85a8e43da880",
+                "name": "Hip Flexors"
+            }
+        ]
+    },
+    {
+        "id": "1e237dfb-d0aa-48a2-b026-dc59b0285f57",
+        "name": "Sled Push",
+        "difficulty": "Intermediate",
+        "force_type": "Push",
+        "equipment": "Other",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
+                "name": "Quadriceps"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            },
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            },
+            {
+                "id": "36b69080-8548-487b-9455-0d07a905142f",
+                "name": "Calves"
+            },
+            {
+                "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
+                "name": "Core"
+            }
+        ]
+    },
+    {
+        "id": "2f8b5e18-a123-4bb1-b0f3-7e91b7d033f3",
+        "name": "Sled Pull",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Sled",
+        "mechanic": "Compound",
+        "primary_muscle_groups": [
+            {
+                "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
+                "name": "Glutes"
+            },
+            {
+                "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
+                "name": "Hamstrings"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "36b69080-8548-487b-9455-0d07a905142f",
+                "name": "Calves"
+            },
+            {
+                "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
+                "name": "Core"
+            },
+            {
+                "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
+                "name": "Quadriceps"
+            }
+        ]
+    },
+    {
+        "id": "aedc3f82-3467-4b8c-b43f-5251255a75a0",
+        "name": "Cable Crunch",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
+                "name": "Core"
+            }
+        ],
+        "secondary_muscle_groups": []
+        
+    },
+    {
+        "id": "f5acdc50-10c4-45cb-9280-fae612fb07fc",
+        "name": "Hanging Leg Raises",
+        "difficulty": "Intermediate",
+        "force_type": "Pull",
+        "equipment": "Machine",
+        "mechanic": "Isolation",
+        "primary_muscle_groups": [
+            {
+                "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
+                "name": "Core"
+            }
+        ],
+        "secondary_muscle_groups": [
+            {
+                "id": "a9ac8682-338e-4369-959a-85a8e43da880",
+                "name": "Hip Flexors"
+            }
+        ]
+    }
+]
