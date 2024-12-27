@@ -3,8 +3,8 @@
     "id": "f1d2d2f9-754f-4a9e-93c4-6e9f6f4c026f",
     "name": "Hack Squat",
     "difficulty": "Intermediate",
-    "force_type": "Pull",
-    "mechanic": "Compound",
+    "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Machine",
     "primary_muscle_groups": [
       {
@@ -31,8 +31,8 @@
     "id": "d99f50b5-b4d3-432a-bf7b-7f9e48c12a7f",
     "name": "Hip Thrust Machine",
     "difficulty": "Intermediate",
-    "force_type": "Pull",
-    "mechanic": "Compound",
+    "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Machine",
     "primary_muscle_groups": [
       {
@@ -56,8 +56,8 @@
     "name": "Leg Press",
     "difficulty": "Intermediate",
     "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Machine",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
@@ -81,10 +81,10 @@
   },
   {
     "id": "3187dffc-fd5b-49da-81ae-8f0d4ff1c0a4",
-    "name": "Seated Calf Raise",
+    "name": "Seated Calf Raise Machine",
     "difficulty": "Intermediate",
     "force_type": "Push",
-    "mechanic": "Isolation",
+    "exercise_type": "Isolation",
     "equipment": "Machine",
     "primary_muscle_groups": [
       {
@@ -96,11 +96,11 @@
   },
   {
     "id": "d1a1f4c5-030a-4f1a-a9b1-6a8a5b6c3d7b",
-    "name": "Standing Calf Raise",
+    "name": "Standing Calf Raise Machine",
     "difficulty": "Intermediate",
     "force_type": "Push",
-    "mechanic": "Isolation",
-    "equipment": "Bodyweight",
+    "exercise_type": "Isolation",
+    "equipment": "Machine",
     "primary_muscle_groups": [
       {
         "id": "36b69080-8548-487b-9455-0d07a905142f",
@@ -113,9 +113,9 @@
     "id": "d411bc57-c2ed-4e75-8a82-834c5ed5e7b1",
     "name": "Box Jumps",
     "difficulty": "Intermediate",
-    "force_type": "Plyometric",
-    "equipment": "Other",
-    "mechanic": "Compound",
+    "force_type": "Push",
+    "exercise_type": "Plyometric",
+    "equipment": "Box",
     "primary_muscle_groups": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
@@ -143,8 +143,8 @@
     "categories": ["Barbell"],
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Compound",
     "equipment": "Barbell",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
@@ -167,8 +167,8 @@
     "name": "Squat",
     "difficulty": "Intermediate",
     "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Barbell",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
@@ -191,8 +191,8 @@
     "name": "Standing Abductor Machine",
     "difficulty": "Intermediate",
     "force_type": "Push",
+    "exercise_type": "Isolation",
     "equipment": "Machine",
-    "mechanic": "Isolation",
     "primary_muscle_groups": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
@@ -211,8 +211,8 @@
     "name": "Leg Extension",
     "difficulty": "Intermediate",
     "force_type": "Push",
+    "exercise_type": "Isolation",
     "equipment": "Machine",
-    "mechanic": "Isolation",
     "primary_muscle_groups": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
@@ -226,8 +226,8 @@
     "name": "Prone Leg Curl",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Isolation",
     "equipment": "Machine",
-    "mechanic": "Isolation",
     "primary_muscle_groups": [
       {
         "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
@@ -241,8 +241,8 @@
     "name": "Lat Pulldown",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Compound",
     "equipment": "Machine",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
@@ -265,8 +265,8 @@
     "name": "Bench Press",
     "difficulty": "Intermediate",
     "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Barbell",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
@@ -289,8 +289,8 @@
     "name": "Shoulder Press Machine",
     "difficulty": "Intermediate",
     "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Machine",
-    "mechanic": "Isolation",
     "primary_muscle_groups": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
@@ -309,8 +309,8 @@
     "name": "Dumbbell Bicep Curl",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Isolation",
     "equipment": "Dumbbell",
-    "mechanic": "Isolation",
     "primary_muscle_groups": [
       {
         "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
@@ -323,9 +323,9 @@
     "id": "81fcd2a3-b49b-478b-9116-95e53b94d983",
     "name": "Tricep Push Down",
     "difficulty": "Intermediate",
-    "force_type": "Pull",
-    "equipment": "Machine",
-    "mechanic": "Isolation",
+    "force_type": "Push",
+    "exercise_type": "Isolation",
+    "equipment": "Cable",
     "primary_muscle_groups": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
@@ -338,9 +338,9 @@
     "id": "a93e104a-458a-42a7-9bbf-abe1b5c923c3",
     "name": "Triceps Overhead Extension",
     "difficulty": "Intermediate",
-    "force_type": "Pull",
-    "equipment": "Machine",
-    "mechanic": "Isolation",
+    "force_type": "Push",
+    "exercise_type": "Isolation",
+    "equipment": "Dumbbell",
     "primary_muscle_groups": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
@@ -354,8 +354,8 @@
     "name": "Seated Row",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Compound",
     "equipment": "Machine",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
@@ -378,8 +378,8 @@
     "name": "Machine Reverse Fly",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Isolation",
     "equipment": "Machine",
-    "mechanic": "Isolation",
     "primary_muscle_groups": [
       {
         "id": "d1e447e6-aeae-4603-a34f-97b592b7db24",
@@ -398,8 +398,8 @@
     "name": "Pull-up",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Compound",
     "equipment": "Bodyweight",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
@@ -422,8 +422,8 @@
     "name": "Dips",
     "difficulty": "Intermediate",
     "force_type": "Push",
-    "equipment": "Machine",
-    "mechanic": "Compound",
+    "exercise_type": "Compound",
+    "equipment": "Bodyweight",
     "primary_muscle_groups": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
@@ -446,8 +446,8 @@
     "name": "Chest Press",
     "difficulty": "Intermediate",
     "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Machine",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
@@ -467,11 +467,11 @@
   },
   {
     "id": "81e4a64f-5761-42b5-a4a7-8b21a82d3a96",
-    "name": "Machine Chest Fly",
+    "name": "Machine Fly",
     "difficulty": "Intermediate",
-    "force_type": "Pull",
+    "force_type": "Push",
+    "exercise_type": "Isolation",
     "equipment": "Machine",
-    "mechanic": "Isolation",
     "primary_muscle_groups": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
@@ -485,8 +485,8 @@
     "name": "Dumbbell Shoulder Press",
     "difficulty": "Intermediate",
     "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Dumbbell",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
@@ -504,9 +504,9 @@
     "id": "e070b3b2-34b4-497a-bfc5-97be218b5b70",
     "name": "Bulgarian Split Squat",
     "difficulty": "Intermediate",
-    "force_type": "Pull",
+    "force_type": "Push",
+    "exercise_type": "Compound",
     "equipment": "Dumbbell",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
@@ -529,8 +529,8 @@
     "name": "Dumbbell Pullover",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Compound",
     "equipment": "Dumbbell",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
@@ -550,11 +550,11 @@
   },
   {
     "id": "8bb2a41b-13db-4b3f-b7a2-3adbd3187d04",
-    "name": "Cable Shoulder Front Raise",
+    "name": "Cable Front Raise",
     "difficulty": "Intermediate",
     "force_type": "Pull",
-    "equipment": "Machine",
-    "mechanic": "Isolation",
+    "exercise_type": "Isolation",
+    "equipment": "Cable",
     "primary_muscle_groups": [
       {
         "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
@@ -570,11 +570,11 @@
   },
   {
     "id": "c90a889a-0719-4a32-8132-27fdb6d6fd6f",
-    "name": "Cable Shoulder Fly",
+    "name": "Cable Lateral Shoulder Fly",
     "difficulty": "Intermediate",
-    "force_type": "Pull",
-    "equipment": "Machine",
-    "mechanic": "Isolation",
+    "force_type": "Push",
+    "exercise_type": "Isolation",
+    "equipment": "Cable",
     "primary_muscle_groups": [
       {
         "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
@@ -593,8 +593,9 @@
     "name": "Cable Face Pull",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Compound",
     "equipment": "Machine",
-    "mechanic": "Compound",
+
     "primary_muscle_groups": [
       {
         "id": "d1e447e6-aeae-4603-a34f-97b592b7db24",
@@ -617,8 +618,8 @@
     "name": "Barbell Bent Over Row",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Compound",
     "equipment": "Barbell",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
@@ -638,11 +639,11 @@
   },
   {
     "id": "83780ac5-5d4f-473e-bd1a-55b9e15ed8e9",
-    "name": "Cable Knee Raises",
+    "name": "Cable Single-Leg Knee raise",
     "difficulty": "Intermediate",
     "force_type": "Pull",
-    "equipment": "Machine",
-    "mechanic": "Isolation",
+    "exercise_type": "Isolation",
+    "equipment": "Cable",
     "primary_muscle_groups": [
       {
         "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
@@ -661,8 +662,8 @@
     "name": "Sled Push",
     "difficulty": "Intermediate",
     "force_type": "Push",
-    "equipment": "Other",
-    "mechanic": "Compound",
+    "exercise_type": "Compound",
+    "equipment": "Sled",
     "primary_muscle_groups": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
@@ -693,8 +694,8 @@
     "name": "Sled Pull",
     "difficulty": "Intermediate",
     "force_type": "Pull",
+    "exercise_type": "Compound",
     "equipment": "Sled",
-    "mechanic": "Compound",
     "primary_muscle_groups": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
@@ -725,8 +726,8 @@
     "name": "Cable Crunch",
     "difficulty": "Intermediate",
     "force_type": "Pull",
-    "equipment": "Machine",
-    "mechanic": "Isolation",
+    "exercise_type": "Isolation",
+    "equipment": "Cable",
     "primary_muscle_groups": [
       {
         "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
@@ -740,8 +741,8 @@
     "name": "Hanging Leg Raises",
     "difficulty": "Intermediate",
     "force_type": "Pull",
-    "equipment": "Machine",
-    "mechanic": "Isolation",
+    "exercise_type": "Isolation",
+    "equipment": "Bodyweight",
     "primary_muscle_groups": [
       {
         "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
