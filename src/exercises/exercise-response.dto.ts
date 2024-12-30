@@ -99,8 +99,8 @@ export class ExerciseResponseDTO {
   forceType: ExerciseForceType;
   exerciseType: ExerciseType;
   equipment: ExerciseEquipment;
-  primaryMuscleGroups: MuscleGroupResponseDTO[];
-  secondaryMuscleGroups: MuscleGroupResponseDTO[];
+  primaryMuscles: MuscleResponseDTO[];
+  secondaryMuscles: MuscleResponseDTO[];
 
   constructor(
     id: string,
@@ -109,8 +109,8 @@ export class ExerciseResponseDTO {
     forceType: ExerciseForceType,
     exerciseType: ExerciseType,
     equipment: ExerciseEquipment,
-    primaryMuscleGroups: MuscleGroupResponseDTO[],
-    secondaryMuscleGroups: MuscleGroupResponseDTO[],
+    primaryMuscles: MuscleResponseDTO[],
+    secondaryMuscles: MuscleResponseDTO[],
   ) {
     this.id = id;
     this.name = name;
@@ -118,12 +118,12 @@ export class ExerciseResponseDTO {
     this.forceType = forceType;
     this.exerciseType = exerciseType;
     this.equipment = equipment;
-    this.primaryMuscleGroups = primaryMuscleGroups;
-    this.secondaryMuscleGroups = secondaryMuscleGroups;
+    this.primaryMuscles = primaryMuscles;
+    this.secondaryMuscles = secondaryMuscles;
   }
 }
 
-export class MuscleGroupResponseDTO {
+export class MuscleResponseDTO {
   id: string;
   name: string;
 

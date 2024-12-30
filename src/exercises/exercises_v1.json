@@ -6,13 +6,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
         "name": "quadriceps"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "36b69080-8548-487b-9455-0d07a905142f",
         "name": "calves"
@@ -34,13 +34,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
         "name": "Glutes"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
         "name": "Hamstrings"
@@ -58,13 +58,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
         "name": "Quadriceps"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "36b69080-8548-487b-9455-0d07a905142f",
         "name": "calves"
@@ -86,13 +86,13 @@
     "force_type": "Push",
     "exercise_type": "Isolation",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "36b69080-8548-487b-9455-0d07a905142f",
         "name": "Calves"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "d1a1f4c5-030a-4f1a-a9b1-6a8a5b6c3d7b",
@@ -101,13 +101,13 @@
     "force_type": "Push",
     "exercise_type": "Isolation",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "36b69080-8548-487b-9455-0d07a905142f",
         "name": "Calves"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "d411bc57-c2ed-4e75-8a82-834c5ed5e7b1",
@@ -116,13 +116,13 @@
     "force_type": "Push",
     "exercise_type": "Plyometric",
     "equipment": "Box",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
         "name": "Quadriceps"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
         "name": "Glutes"
@@ -145,13 +145,13 @@
     "force_type": "Pull",
     "exercise_type": "Compound",
     "equipment": "Barbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
         "name": "Glutes"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
         "name": "Hamstrings"
@@ -169,13 +169,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Barbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
         "name": "Quadriceps"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
         "name": "Glutes"
@@ -193,13 +193,13 @@
     "force_type": "Push",
     "exercise_type": "Isolation",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
         "name": "Glutes"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "7c9064fd-55ae-4f25-a8c2-b378ebb307cf",
         "name": "Abductors"
@@ -213,13 +213,13 @@
     "force_type": "Push",
     "exercise_type": "Isolation",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
         "name": "Quadriceps"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "345a41bc-8d58-4f6f-bc4d-e2a84d640176",
@@ -228,13 +228,13 @@
     "force_type": "Pull",
     "exercise_type": "Isolation",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "bfa5c2e7-4b92-4512-8a02-4862c2db606c",
         "name": "Hamstrings"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "9168fa55-649b-4d27-9a5b-640b22962a92",
@@ -243,13 +243,13 @@
     "force_type": "Pull",
     "exercise_type": "Compound",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
         "name": "Lats"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
         "name": "Biceps"
@@ -267,13 +267,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Barbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
         "name": "Chest"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
         "name": "Triceps"
@@ -291,13 +291,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
         "name": "Triceps"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
         "name": "Shoulders"
@@ -311,13 +311,13 @@
     "force_type": "Pull",
     "exercise_type": "Isolation",
     "equipment": "Dumbbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
         "name": "Biceps"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "81fcd2a3-b49b-478b-9116-95e53b94d983",
@@ -326,13 +326,13 @@
     "force_type": "Push",
     "exercise_type": "Isolation",
     "equipment": "Cable",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
         "name": "Triceps"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "a93e104a-458a-42a7-9bbf-abe1b5c923c3",
@@ -341,13 +341,13 @@
     "force_type": "Push",
     "exercise_type": "Isolation",
     "equipment": "Dumbbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
         "name": "Triceps"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "7aa8a48b-92c4-4855-937a-d38c98f77c4c",
@@ -356,13 +356,13 @@
     "force_type": "Pull",
     "exercise_type": "Compound",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
         "name": "Lats"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
         "name": "Upper Back"
@@ -380,13 +380,13 @@
     "force_type": "Pull",
     "exercise_type": "Isolation",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "d1e447e6-aeae-4603-a34f-97b592b7db24",
         "name": "Rear Deltoids"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
         "name": "Upper Back"
@@ -400,13 +400,13 @@
     "force_type": "Pull",
     "exercise_type": "Compound",
     "equipment": "Bodyweight",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
         "name": "Lats"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "d0d45d41-30d8-4a86-8dbf-9f93342df874",
         "name": "Biceps"
@@ -424,13 +424,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Bodyweight",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
         "name": "Triceps"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
         "name": "Chest"
@@ -448,13 +448,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
         "name": "Chest"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
         "name": "Shoulders"
@@ -472,13 +472,13 @@
     "force_type": "Push",
     "exercise_type": "Isolation",
     "equipment": "Machine",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
         "name": "Chest"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "fa649072-fcfc-4b78-b7ab-f7b5a07f73df",
@@ -487,13 +487,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Dumbbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
         "name": "Shoulders"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "40363d69-d156-42c3-8cbe-e67d563f2075",
         "name": "Triceps"
@@ -507,13 +507,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Dumbbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
         "name": "Quadriceps"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
         "name": "Glutes"
@@ -531,13 +531,13 @@
     "force_type": "Pull",
     "exercise_type": "Compound",
     "equipment": "Dumbbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "1e6a6f6b-14de-4e2c-a080-9828119e8027",
         "name": "Chest"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
         "name": "Lats"
@@ -555,13 +555,13 @@
     "force_type": "Pull",
     "exercise_type": "Isolation",
     "equipment": "Cable",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
         "name": "Shoulders"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "f6f092a3-9f4b-4a1e-8d12-f34562f1ef3c",
         "name": "Front Deltoids"
@@ -575,13 +575,13 @@
     "force_type": "Push",
     "exercise_type": "Isolation",
     "equipment": "Cable",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "4f5bb712-642a-482a-8fb4-f02a6c6826dc",
         "name": "Shoulders"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "f4e22713-2f8f-4a87-84c2-48dc7d9e28b0",
         "name": "Lateral Deltoids"
@@ -596,13 +596,13 @@
     "exercise_type": "Compound",
     "equipment": "Machine",
 
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "d1e447e6-aeae-4603-a34f-97b592b7db24",
         "name": "Rear Deltoids"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
         "name": "Upper Back"
@@ -620,13 +620,13 @@
     "force_type": "Pull",
     "exercise_type": "Compound",
     "equipment": "Barbell",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "d41d27d9-2aae-4cb8-adb1-bb025e5e2e47",
         "name": "Lats"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "6adf6d39-db5f-4912-a5fb-f4d58dd46631",
         "name": "Upper Back"
@@ -644,13 +644,13 @@
     "force_type": "Pull",
     "exercise_type": "Isolation",
     "equipment": "Cable",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
         "name": "Core"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "a9ac8682-338e-4369-959a-85a8e43da880",
         "name": "Hip Flexors"
@@ -664,13 +664,13 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "equipment": "Sled",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "b899ff55-a54c-4201-8d49-9d43ffa45631",
         "name": "Quadriceps"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
         "name": "Glutes"
@@ -696,7 +696,7 @@
     "force_type": "Pull",
     "exercise_type": "Compound",
     "equipment": "Sled",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "20395c9a-e606-42ef-ae09-33ea35784b2d",
         "name": "Glutes"
@@ -706,7 +706,7 @@
         "name": "Hamstrings"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "36b69080-8548-487b-9455-0d07a905142f",
         "name": "Calves"
@@ -728,13 +728,13 @@
     "force_type": "Pull",
     "exercise_type": "Isolation",
     "equipment": "Cable",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
         "name": "Core"
       }
     ],
-    "secondary_muscle_groups": []
+    "secondary_muscles": []
   },
   {
     "id": "f5acdc50-10c4-45cb-9280-fae612fb07fc",
@@ -743,13 +743,13 @@
     "force_type": "Pull",
     "exercise_type": "Isolation",
     "equipment": "Bodyweight",
-    "primary_muscle_groups": [
+    "primary_muscles": [
       {
         "id": "200fde54-da32-4922-8d0a-6f2ded33f9e0",
         "name": "Core"
       }
     ],
-    "secondary_muscle_groups": [
+    "secondary_muscles": [
       {
         "id": "a9ac8682-338e-4369-959a-85a8e43da880",
         "name": "Hip Flexors"
