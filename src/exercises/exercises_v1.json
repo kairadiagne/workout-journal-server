@@ -5,6 +5,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "f1ece859-c67e-4342-af52-0940ae2f3ad4",
@@ -37,6 +38,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "7d92389b-9026-41eb-8cb3-4e80795758ca",
@@ -65,6 +67,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "f1ece859-c67e-4342-af52-0940ae2f3ad4",
@@ -97,6 +100,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "98b10a58-d175-431f-9357-2e13a757549f",
@@ -116,6 +120,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "98b10a58-d175-431f-9357-2e13a757549f",
@@ -135,6 +140,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Plyometric",
+    "repetition_type": "DynamicReps",
     "equipment": "Box",
     "muscle_group": {
       "id": "7d92389b-9026-41eb-8cb3-4e80795758ca",
@@ -164,12 +170,11 @@
   {
     "id": "a3778d5f-b128-45ea-bdc9-e4678e1f5642",
     "name": "Trap Bar Romanian Deadlift",
-    "categories": [
-      "Barbell"
-    ],
+    "categories": ["Barbell"],
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Barbell",
     "muscle_group": {
       "id": "bfed8792-9ab0-4d0f-add3-2c4ea2e20116",
@@ -198,6 +203,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Barbell",
     "muscle_group": {
       "id": "f1ece859-c67e-4342-af52-0940ae2f3ad4",
@@ -226,6 +232,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "7d92389b-9026-41eb-8cb3-4e80795758ca",
@@ -250,6 +257,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "f1ece859-c67e-4342-af52-0940ae2f3ad4",
@@ -269,6 +277,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "bfed8792-9ab0-4d0f-add3-2c4ea2e20116",
@@ -288,6 +297,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "883e1939-8566-4bc1-adae-ea0e80f9a77d",
@@ -316,6 +326,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Barbell",
     "muscle_group": {
       "id": "1c227679-1a7c-4ccd-b27f-b19a90f8dfe8",
@@ -344,6 +355,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "4a222cfb-df09-4e5a-bbb7-74a88d9c4719",
@@ -368,6 +380,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Dumbbell",
     "muscle_group": {
       "id": "660898ae-7695-4df6-ad48-71fb14163296",
@@ -387,6 +400,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Cable",
     "muscle_group": {
       "id": "8cb860a8-2c3f-4630-ad7c-bb815f51a9ff",
@@ -406,6 +420,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Dumbbell",
     "muscle_group": {
       "id": "8cb860a8-2c3f-4630-ad7c-bb815f51a9ff",
@@ -425,6 +440,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "883e1939-8566-4bc1-adae-ea0e80f9a77d",
@@ -453,6 +469,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "4a222cfb-df09-4e5a-bbb7-74a88d9c4719",
@@ -477,6 +494,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Bodyweight",
     "muscle_group": {
       "id": "883e1939-8566-4bc1-adae-ea0e80f9a77d",
@@ -505,6 +523,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Bodyweight",
     "muscle_group": {
       "id": "8cb860a8-2c3f-4630-ad7c-bb815f51a9ff",
@@ -533,6 +552,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "1c227679-1a7c-4ccd-b27f-b19a90f8dfe8",
@@ -561,6 +581,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "1c227679-1a7c-4ccd-b27f-b19a90f8dfe8",
@@ -580,6 +601,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Dumbbell",
     "muscle_group": {
       "id": "4a222cfb-df09-4e5a-bbb7-74a88d9c4719",
@@ -604,6 +626,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Dumbbell",
     "muscle_group": {
       "id": "f1ece859-c67e-4342-af52-0940ae2f3ad4",
@@ -632,6 +655,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Dumbbell",
     "muscle_group": {
       "id": "883e1939-8566-4bc1-adae-ea0e80f9a77d",
@@ -660,6 +684,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Cable",
     "muscle_group": {
       "id": "4a222cfb-df09-4e5a-bbb7-74a88d9c4719",
@@ -684,6 +709,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Cable",
     "muscle_group": {
       "id": "4a222cfb-df09-4e5a-bbb7-74a88d9c4719",
@@ -708,6 +734,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Machine",
     "muscle_group": {
       "id": "883e1939-8566-4bc1-adae-ea0e80f9a77d",
@@ -736,6 +763,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Barbell",
     "muscle_group": {
       "id": "883e1939-8566-4bc1-adae-ea0e80f9a77d",
@@ -764,6 +792,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Cable",
     "muscle_group": {
       "id": "7d92389b-9026-41eb-8cb3-4e80795758ca",
@@ -788,6 +817,7 @@
     "difficulty": "Intermediate",
     "force_type": "Push",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Sled",
     "muscle_group": {
       "id": "f1ece859-c67e-4342-af52-0940ae2f3ad4",
@@ -824,6 +854,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Compound",
+    "repetition_type": "DynamicReps",
     "equipment": "Sled",
     "muscle_group": {
       "id": "bfed8792-9ab0-4d0f-add3-2c4ea2e20116",
@@ -860,6 +891,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Cable",
     "muscle_group": {
       "id": "5cae9744-d807-48d4-9749-d5d6172e99f7",
@@ -879,6 +911,7 @@
     "difficulty": "Intermediate",
     "force_type": "Pull",
     "exercise_type": "Isolation",
+    "repetition_type": "DynamicReps",
     "equipment": "Bodyweight",
     "muscle_group": {
       "id": "5cae9744-d807-48d4-9749-d5d6172e99f7",

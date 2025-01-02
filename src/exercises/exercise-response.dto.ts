@@ -74,6 +74,26 @@ enum ExerciseType {
 }
 
 /**
+ * Enum representing different types of repetitions for exercises.
+ */
+enum RepetitionType {
+  /**
+   * Dynamic reps, e.g., 10 reps with weights
+   */
+  DynamicReps = 'DynamicReps',
+
+  /**
+   * Static time-based reps, e.g., plank for 30 seconds
+   */
+  StaticReps = 'StaticReps',
+
+  /**
+   * Static reps with weight, e.g., wall sit with weight for 60 seconds
+   */
+  StaticWithWeightReps = 'StaticWithWeightReps',
+}
+
+/**
  * Enum representing major muscle groups.
  * https://levelsprotein.com/blogs/guides/the-ultimate-muscle-groups-guide
  */
@@ -159,6 +179,7 @@ export class ExerciseResponseDTO {
   difficulty: ExerciseDifficulty;
   forceType: ExerciseForceType;
   exerciseType: ExerciseType;
+  repetitionType: RepetitionType;
   equipment: ExerciseEquipment;
   muscleGroup: MuscleGroup;
   primaryMuscles: MuscleResponseDTO[];
@@ -169,8 +190,9 @@ export class ExerciseResponseDTO {
     name: string,
     difficulty: ExerciseDifficulty,
     forceType: ExerciseForceType,
-    exerciseType: ExerciseType,
+    repetitionType: RepetitionType,
     equipment: ExerciseEquipment,
+    exerciseType: ExerciseType,
     muscleGroup: MuscleGroup,
     primaryMuscles: MuscleResponseDTO[],
     secondaryMuscles: MuscleResponseDTO[],
@@ -180,6 +202,7 @@ export class ExerciseResponseDTO {
     this.difficulty = difficulty;
     this.forceType = forceType;
     this.exerciseType = exerciseType;
+    this.repetitionType = repetitionType;
     this.equipment = equipment;
     this.muscleGroup = muscleGroup;
     this.primaryMuscles = primaryMuscles;
