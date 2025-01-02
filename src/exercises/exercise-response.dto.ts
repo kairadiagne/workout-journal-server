@@ -160,7 +160,6 @@ enum MuscleGroup {
 enum ExerciseEquipment {
   Barbell = 'Barbell',
   Bench = 'Bench',
-  Bodyweight = 'Bodyweight',
   Box = 'Box',
   Cable = 'Cable',
   Dumbbell = 'Dumbbell',

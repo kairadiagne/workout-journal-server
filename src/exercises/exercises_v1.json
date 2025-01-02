@@ -495,7 +495,7 @@
     "force_type": "Pull",
     "exercise_type": "Compound",
     "repetition_type": "DynamicReps",
-    "equipment": "Bodyweight",
+    "equipment": "Other",
     "muscle_group": {
       "id": "883e1939-8566-4bc1-adae-ea0e80f9a77d",
       "name": "Back"
@@ -524,7 +524,7 @@
     "force_type": "Push",
     "exercise_type": "Compound",
     "repetition_type": "DynamicReps",
-    "equipment": "Bodyweight",
+    "equipment": "Other",
     "muscle_group": {
       "id": "8cb860a8-2c3f-4630-ad7c-bb815f51a9ff",
       "name": "Triceps"
@@ -912,7 +912,7 @@
     "force_type": "Pull",
     "exercise_type": "Isolation",
     "repetition_type": "DynamicReps",
-    "equipment": "Bodyweight",
+    "equipment": "Other",
     "muscle_group": {
       "id": "5cae9744-d807-48d4-9749-d5d6172e99f7",
       "name": "Abs"
