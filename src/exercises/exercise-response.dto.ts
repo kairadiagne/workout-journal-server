@@ -76,21 +76,31 @@ enum ExerciseType {
 /**
  * Enum representing different types of repetitions for exercises.
  */
-enum RepetitionType {
+enum ExerciseMechanic {
   /**
-   * Dynamic reps, e.g., 10 reps with weights
+   * Countable reps, no weight by default, optional weight allowed (e.g., push-ups).
    */
-  DynamicReps = 'DynamicReps',
+  DynamicBodyWeight = 'DynamicBodyWeight',
 
   /**
-   * Static time-based reps, e.g., plank for 30 seconds
+   * Countable reps, weight is optional (e.g., sled pushes).
    */
-  StaticReps = 'StaticReps',
+  DynamicOptionalWeight = 'DynamicOptionalWeight',
 
   /**
-   * Static reps with weight, e.g., wall sit with weight for 60 seconds
+   *  Countable reps, weight is mandatory (e.g., barbell squats).
    */
-  StaticWithWeightReps = 'StaticWithWeightReps',
+  DynamicRequiredWeight = 'DynamicRequiredWeight',
+
+  /**
+   * Countable reps with assistance (e.g., assisted pull-ups).
+   */
+  DynamicAssistedWeight = 'DynamicAssistedWeight',
+
+  /**
+   * Time-based hold, wirht optional weights (e.g., planks).
+   */
+  StaticTimeBased = 'StaticTimeBased',
 }
 
 /**
@@ -178,7 +188,7 @@ export class ExerciseResponseDTO {
   difficulty: ExerciseDifficulty;
   forceType: ExerciseForceType;
   exerciseType: ExerciseType;
-  repetitionType: RepetitionType;
+  exerciseMechanic: ExerciseMechanic;
   equipment: ExerciseEquipment;
   muscleGroup: MuscleGroup;
   primaryMuscles: MuscleResponseDTO[];
@@ -189,7 +199,7 @@ export class ExerciseResponseDTO {
     name: string,
     difficulty: ExerciseDifficulty,
     forceType: ExerciseForceType,
-    repetitionType: RepetitionType,
+    exerciseMechanic: ExerciseMechanic,
     equipment: ExerciseEquipment,
     exerciseType: ExerciseType,
     muscleGroup: MuscleGroup,
@@ -201,7 +211,7 @@ export class ExerciseResponseDTO {
     this.difficulty = difficulty;
     this.forceType = forceType;
     this.exerciseType = exerciseType;
-    this.repetitionType = repetitionType;
+    this.exerciseMechanic = exerciseMechanic;
     this.equipment = equipment;
     this.muscleGroup = muscleGroup;
     this.primaryMuscles = primaryMuscles;
