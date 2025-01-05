@@ -1,8 +1,32 @@
 {
   "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
-  "sourceRoot": "src",
+  "sourceRoot": "apps/workout-journal-server/src",
   "compilerOptions": {
-    "deleteOutDir": true
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/workout-journal-server/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/workout-journal-server",
+  "projects": {
+    "workout-journal-server": {
+      "type": "application",
+      "root": "apps/workout-journal-server",
+      "entryFile": "main",
+      "sourceRoot": "apps/workout-journal-server/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/workout-journal-server/tsconfig.app.json"
+      }
+    },
+    "workout-journal-worker": {
+      "type": "application",
+      "root": "apps/workout-journal-worker",
+      "entryFile": "main",
+      "sourceRoot": "apps/workout-journal-worker/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/workout-journal-worker/tsconfig.app.json"
+      }
+    }
   }
 }
