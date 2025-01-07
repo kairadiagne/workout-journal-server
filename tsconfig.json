@@ -9,6 +9,7 @@
     "target": "ES2021",
     "sourceMap": true,
     "outDir": "./dist",
+    "rootDir": "./",
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
@@ -25,12 +26,8 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "paths": {
-      "@workoutjournal/database": [
-        "libs/database/src"
-      ],
-      "@workoutjournal/database/*": [
-        "libs/database/src/*"
-      ]
+      "@workoutjournal/database": ["libs/database/src"],
+      "@workoutjournal/database/*": ["libs/database/src/*"]
     }
   }
 }

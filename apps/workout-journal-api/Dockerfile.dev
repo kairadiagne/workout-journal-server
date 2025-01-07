@@ -1,0 +1,23 @@
+# Use a lightweight Node.js image
+FROM node:18-alpine
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy the root-level package.json and package-lock.json
+COPY package*.json .
+
+# Install development dependencies
+RUN npm install
+
+# Copy the tsconfig files which are required by the Typescript compiler and Nest CLI
+COPY tsconfig*.json ./
+COPY apps/workout-journal-api ./apps/workout-journal-api/
+COPY libs ./libs
+COPY nest-cli.json ./
+
+# Expose the API port
+EXPOSE 3000
+
+# Run the app in development mode
+CMD ["npm", "run", "start:api:dev"]

@@ -1,5 +1,5 @@
 {
-  "name": "workout-journal-server",
+  "name": "workout-journal",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -8,16 +8,20 @@
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
-    "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/apps/workout-journal-server/main",
+    "start:api": "nest start workout-journal-api",
+    "start:api:dev": "nest start workout-journal-api --watch",
+    "start:api:debug": "nest start workout-journal-api --debug --watch",
+    "start:api:prod": "node dist/apps/workout-journal-api/main",
+    "start:worker": "nest start workout-journal-worker",
+    "start:worker:dev": "nest start workout-journal-worker --watch",
+    "start:worker:debug": "nest start workout-journal-worker --debug --watch",
+    "start:worker:prod": "node dist/apps/workout-journal-worker/main.js",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./apps/workout-journal-server/test/jest-e2e.json"
+    "test:e2e": "jest --config ./apps/workout-journal-api/test/jest-e2e.json"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
