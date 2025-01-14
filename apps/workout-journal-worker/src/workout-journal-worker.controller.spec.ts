@@ -11,7 +11,9 @@ describe('WorkoutJournalWorkerController', () => {
       providers: [WorkoutJournalWorkerService],
     }).compile();
 
-    workoutJournalWorkerController = app.get<WorkoutJournalWorkerController>(WorkoutJournalWorkerController);
+    workoutJournalWorkerController = app.get<WorkoutJournalWorkerController>(
+      WorkoutJournalWorkerController,
+    );
   });
 
   describe('root', () => {

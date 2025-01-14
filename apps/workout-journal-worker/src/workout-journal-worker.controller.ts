@@ -3,7 +3,9 @@ import { WorkoutJournalWorkerService } from './workout-journal-worker.service';
 
 @Controller()
 export class WorkoutJournalWorkerController {
-  constructor(private readonly workoutJournalWorkerService: WorkoutJournalWorkerService) {}
+  constructor(
+    private readonly workoutJournalWorkerService: WorkoutJournalWorkerService,
+  ) {}
 
   @Get()
   getHello(): string {
