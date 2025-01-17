@@ -26,7 +26,8 @@
     "esModuleInterop": true,
     "paths": {
       "@workoutjournal/database": ["libs/database/src"],
-      "@workoutjournal/database/*": ["libs/database/src/*"]
-    }
+      "@workoutjournal/d,atabase/*": ["libs/database/src/*"]
+    },
+    "types": ["jest"]
   }
 }
