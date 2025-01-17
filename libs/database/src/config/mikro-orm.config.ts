@@ -1,7 +1,7 @@
 import { defineConfig, ReflectMetadataProvider } from '@mikro-orm/postgresql';
 import { ExerciseEntity } from '../entities/exercise.entity';
-import { MuscleGroup } from '../entities/muscle-group';
 import { MuscleGroupEntity } from '../entities/muscle-group.entity';
+import { SeedManager } from '@mikro-orm/seeder';
 
 require('dotenv').config();
 
@@ -13,4 +13,9 @@ export default defineConfig({
   dbName: process.env.POSTGRES_DB,
   entities: [ExerciseEntity, MuscleGroupEntity],
   debug: true,
+  extensions: [SeedManager],
+  seeder: {
+    path: 'libs/database/src/seeders',
+    defaultSeeder: 'MuscleGroupSeeder',
+  },
 });

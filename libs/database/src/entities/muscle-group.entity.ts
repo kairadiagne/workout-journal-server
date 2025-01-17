@@ -1,5 +1,6 @@
-import { Entity, PrimaryKey, Property, Unique } from '@mikro-orm/core';
+import { Entity, Enum, PrimaryKey, Property, Unique } from '@mikro-orm/core';
 import { v4 as uuidv4 } from 'uuid';
+import { MuscleGroup } from './muscle-group';
 
 @Entity()
 export class MuscleGroupEntity {
@@ -9,11 +10,11 @@ export class MuscleGroupEntity {
   @Property({ type: `uuid`, unique: true })
   publicId: string;
 
-  @Property({ unique: true })
-  name: string;
+  @Enum(() => MuscleGroup)
+  type: MuscleGroup;
 
-  constructor(publicId: string = uuidv4(), name: string) {
+  constructor(type: MuscleGroup, publicId: string = uuidv4()) {
+    this.type = type;
     this.publicId = publicId;
-    this.name = name;
   }
 }

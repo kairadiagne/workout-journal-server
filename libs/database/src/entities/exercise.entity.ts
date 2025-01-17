@@ -43,7 +43,6 @@ export class ExerciseEntity {
   secondaryMuscles: string[];
 
   constructor(
-    publicId: string = uuidv4(),
     name: string,
     difficulty: ExerciseDifficulty,
     forceType: ExerciseForceType,
@@ -53,6 +52,7 @@ export class ExerciseEntity {
     muscleGroup: MuscleGroupEntity,
     primaryMuscles: string[] = [],
     secondaryMuscles: string[] = [],
+    publicId: string = uuidv4(),
   ) {
     this.publicId = publicId;
     this.name = name;
