@@ -5,6 +5,7 @@ import {
   ExerciseMechanic,
   ExerciseEquipment,
   MuscleGroup,
+  ExerciseEntity,
 } from '@workoutjournal/database';
 
 export class ExerciseResponseDTO {
@@ -16,8 +17,8 @@ export class ExerciseResponseDTO {
   exerciseMechanic: ExerciseMechanic;
   equipment: ExerciseEquipment;
   muscleGroup: MuscleGroup;
-  primaryMuscles: MuscleResponseDTO[];
-  secondaryMuscles: MuscleResponseDTO[];
+  primaryMuscles: string[];
+  secondaryMuscles: string[];
 
   constructor(
     id: string,
@@ -28,8 +29,8 @@ export class ExerciseResponseDTO {
     equipment: ExerciseEquipment,
     exerciseType: ExerciseType,
     muscleGroup: MuscleGroup,
-    primaryMuscles: MuscleResponseDTO[],
-    secondaryMuscles: MuscleResponseDTO[],
+    primaryMuscles: string[],
+    secondaryMuscles: string[],
   ) {
     this.id = id;
     this.name = name;
@@ -42,14 +43,19 @@ export class ExerciseResponseDTO {
     this.primaryMuscles = primaryMuscles;
     this.secondaryMuscles = secondaryMuscles;
   }
-}
 
-export class MuscleResponseDTO {
-  id: string;
-  name: string;
-
-  constructor(id: string, name: string) {
-    this.id = id;
-    this.name = name;
+  static fromEntity(entity: ExerciseEntity): ExerciseResponseDTO {
+    return new ExerciseResponseDTO(
+      entity.publicId,
+      entity.name,
+      entity.difficulty,
+      entity.forceType,
+      entity.mechanic,
+      entity.equipment,
+      entity.exerciseType,
+      entity.muscleGroup.type,
+      entity.primaryMuscles,
+      entity.secondaryMuscles,
+    );
   }
 }

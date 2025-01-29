@@ -3,7 +3,14 @@ import { ExerciseForceType } from './exercise-force-type';
 import { ExerciseType } from './exercise-type';
 import { ExerciseMechanic } from './exercise-mechanic';
 import { ExerciseEquipment } from './exercise-equipment';
-import { Entity, Enum, OneToOne, PrimaryKey, Property } from '@mikro-orm/core';
+import {
+  Entity,
+  Enum,
+  ManyToOne,
+  OneToOne,
+  PrimaryKey,
+  Property,
+} from '@mikro-orm/core';
 import { v4 as uuidv4 } from 'uuid';
 import { MuscleGroupEntity } from './muscle-group.entity';
 
@@ -33,7 +40,7 @@ export class ExerciseEntity {
   @Enum(() => ExerciseEquipment)
   equipment: ExerciseEquipment;
 
-  @OneToOne(() => MuscleGroupEntity, { eager: true })
+  @ManyToOne(() => MuscleGroupEntity, { eager: true })
   muscleGroup: MuscleGroupEntity;
 
   @Property()

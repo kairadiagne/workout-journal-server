@@ -11,7 +11,7 @@ export enum MuscleGroup {
   /**
    * Muscles of the back, including Trapezius, Rhomboids, and Latissimus Dorsi.
    */
-  Back = 'Back (Trapezius, Rhomboids, and Lats)',
+  Back = 'Back',
 
   /**
    * Pectoralis muscles of the chest.

@@ -16,6 +16,6 @@ export default defineConfig({
   extensions: [SeedManager],
   seeder: {
     path: 'libs/database/src/seeders',
-    defaultSeeder: 'MuscleGroupSeeder',
+    defaultSeeder: 'DatabaseSeeder',
   },
 });
