@@ -15,13 +15,13 @@
         "tsConfigPath": "apps/workout-journal-api/tsconfig.app.json"
       }
     },
-    "workout-journal-worker": {
+    "workout-journal-admin": {
       "type": "application",
-      "root": "apps/workout-journal-worker",
+      "root": "apps/workout-journal-admin",
       "entryFile": "main",
-      "sourceRoot": "apps/workout-journal-worker/src",
+      "sourceRoot": "apps/workout-journal-admin/src",
       "compilerOptions": {
-        "tsConfigPath": "apps/workout-journal-worker/tsconfig.app.json"
+        "tsConfigPath": "apps/workout-journal-admin/tsconfig.app.json"
       }
     },
     "database": {

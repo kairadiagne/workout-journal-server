@@ -15,7 +15,7 @@ COPY tsconfig*.json ./
 
 # Copy only the build files and production dependencies
 COPY tsconfig*.json ./
-COPY apps/workout-journal-worker ./apps/workout-journal-worker/
+COPY apps/workout-journal-admin ./apps/workout-journal-admin/
 COPY libs ./libs
 COPY nest-cli.json ./
 
@@ -23,5 +23,5 @@ COPY nest-cli.json ./
 # Expose the API port
 EXPOSE 3001
 
-# Run the worker in development mode
-CMD ["npm", "run", "start:worker:dev"]
+# Run the app in development mode
+CMD ["npm", "run", "start:admin:dev"]

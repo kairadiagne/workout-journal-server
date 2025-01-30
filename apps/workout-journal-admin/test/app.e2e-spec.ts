@@ -1,14 +1,14 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
-import { WorkoutJournalWorkerModule } from './../src/workout-journal-worker.module';
+import { WorkoutJournalAdminModule } from '../src/workout-journal-admin.module';
 
-describe('WorkoutJournalWorkerController (e2e)', () => {
+describe('WorkoutJournalAdminController (e2e)', () => {
   let app: INestApplication;
 
   beforeEach(async () => {
     const moduleFixture: TestingModule = await Test.createTestingModule({
-      imports: [WorkoutJournalWorkerModule],
+      imports: [WorkoutJournalAdminModule],
     }).compile();
 
     app = moduleFixture.createNestApplication();
