@@ -88,7 +88,8 @@
       "<rootDir>/libs/"
     ],
     "moduleNameMapper": {
-      "^@workoutjournal/database(|/.*)$": "<rootDir>/libs/database/src/$1"
+      "^@workoutjournal/database(|/.*)$": "<rootDir>/libs/database/src/$1",
+      "^@workoutjournal/exercises(|/.*)$": "<rootDir>/libs/exercises/src/$1"
     }
   },
   "mikro-orm": {

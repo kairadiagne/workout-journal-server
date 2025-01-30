@@ -6,7 +6,7 @@ import {
   ExerciseEquipment,
   MuscleGroup,
   ExerciseEntity,
-} from '@workoutjournal/database';
+} from '@workoutjournal/exercises';
 
 export class ExerciseResponseDTO {
   id: string;

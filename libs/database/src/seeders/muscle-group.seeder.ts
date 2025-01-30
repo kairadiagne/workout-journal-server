@@ -1,7 +1,6 @@
 import type { EntityManager } from '@mikro-orm/core';
 import { Seeder } from '@mikro-orm/seeder';
-import { MuscleGroupEntity } from '../entities/muscle-group.entity';
-import { MuscleGroup } from '../entities/muscle-group';
+import { MuscleGroup, MuscleGroupEntity } from '@workoutjournal/exercises';
 
 export class MuscleGroupSeeder extends Seeder {
   async run(em: EntityManager): Promise<void> {

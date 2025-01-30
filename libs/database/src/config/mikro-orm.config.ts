@@ -1,7 +1,6 @@
-import { defineConfig, ReflectMetadataProvider } from '@mikro-orm/postgresql';
-import { ExerciseEntity } from '../entities/exercise.entity';
-import { MuscleGroupEntity } from '../entities/muscle-group.entity';
+import { defineConfig } from '@mikro-orm/postgresql';
 import { SeedManager } from '@mikro-orm/seeder';
+import { ExerciseEntity, MuscleGroupEntity } from '@workoutjournal/exercises';
 
 require('dotenv').config();
 

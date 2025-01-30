@@ -1,14 +1,16 @@
 import type { EntityManager } from '@mikro-orm/core';
 import { Seeder } from '@mikro-orm/seeder';
 import exercisesData from './exercises_v1.json';
-import { ExerciseEntity } from '../entities/exercise.entity';
-import { MuscleGroupEntity } from '../entities/muscle-group.entity';
-import { MuscleGroup } from '../entities/muscle-group';
-import { ExerciseDifficulty } from '../entities/exercise-difficulty';
-import { ExerciseForceType } from '../entities/exercise-force-type';
-import { ExerciseType } from '../entities/exercise-type';
-import { ExerciseMechanic } from '../entities/exercise-mechanic';
-import { ExerciseEquipment } from '../entities/exercise-equipment';
+import {
+  ExerciseDifficulty,
+  ExerciseEntity,
+  ExerciseEquipment,
+  ExerciseForceType,
+  ExerciseMechanic,
+  ExerciseType,
+  MuscleGroup,
+  MuscleGroupEntity,
+} from '@workoutjournal/exercises';
 
 export class ExerciseSeeder extends Seeder {
   async run(em: EntityManager): Promise<void> {

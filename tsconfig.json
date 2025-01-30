@@ -25,9 +25,22 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "paths": {
-      "@workoutjournal/database": ["libs/database/src"],
-      "@workoutjournal/d,atabase/*": ["libs/database/src/*"]
+      "@workoutjournal/database": [
+        "libs/database/src"
+      ],
+      "@workoutjournal/database/*": [
+        "libs/database/src/*"
+      ],
+      "@workoutjournal/exercises": [
+        "libs/exercises/src"
+      ],
+      "@workoutjournal/exercises/*": [
+        "libs/exercises/src/*"
+      ]
     },
-    "types": ["node", "jest"]
+    "types": [
+      "node",
+      "jest"
+    ]
   }
 }

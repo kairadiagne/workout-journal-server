@@ -1,14 +1,19 @@
-import { Injectable, InternalServerErrorException } from '@nestjs/common';
+import {
+  Inject,
+  Injectable,
+  InternalServerErrorException,
+} from '@nestjs/common';
 import { ExerciseResponseDTO } from './exercise-response.dto';
-import { InjectRepository } from '@mikro-orm/nestjs';
-import { ExerciseEntity } from '@workoutjournal/database';
-import { EntityRepository } from '@mikro-orm/postgresql';
+import {
+  EXERCISES_REPOSITORY,
+  IExercisesRepository,
+} from '@workoutjournal/exercises';
 
 @Injectable()
 export class ExercisesService {
   constructor(
-    @InjectRepository(ExerciseEntity)
-    private readonly exerciseRepository: EntityRepository<ExerciseEntity>,
+    @Inject(EXERCISES_REPOSITORY)
+    private readonly exerciseRepository: IExercisesRepository,
   ) {}
 
   async getExercises(): Promise<ExerciseResponseDTO[]> {
