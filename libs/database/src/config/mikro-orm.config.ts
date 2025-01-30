@@ -18,4 +18,12 @@ export default defineConfig({
     path: 'libs/database/src/seeders',
     defaultSeeder: 'DatabaseSeeder',
   },
+  migrations: {
+    tableName: 'mikro_orm_migrations',
+    path: 'libs/database/src/migrations',
+    transactional: true,
+    allOrNothing: true,
+    snapshot: true,
+    emit: 'ts',
+  },
 });

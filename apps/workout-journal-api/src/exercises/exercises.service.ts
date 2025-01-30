@@ -19,8 +19,6 @@ export class ExercisesService {
         return ExerciseResponseDTO.fromEntity(exercise);
       });
     } catch (error) {
-      // TODO: - Should we generically map all db errors somewhere to this.
-      // Instead of defining it in every route.
       throw new InternalServerErrorException();
     }
   }
