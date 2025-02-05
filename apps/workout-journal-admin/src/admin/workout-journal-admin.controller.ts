@@ -1,14 +1,14 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Post } from '@nestjs/common';
 import { WorkoutJournalAdminService } from './workout-journal-admin.service';
 
-@Controller()
+@Controller('admin')
 export class WorkoutJournalAdminController {
   constructor(
     private readonly workoutJournalAdminService: WorkoutJournalAdminService,
   ) {}
 
-  @Get()
-  getHello(): string {
-    return this.workoutJournalAdminService.getHello();
+  @Post('importexercises')
+  importExercises() {
+    this.workoutJournalAdminService.importExercises();
   }
 }

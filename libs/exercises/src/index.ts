@@ -1,5 +1,6 @@
 export * from './exercises.module';
-export * from './exercises.repository.interface';
+export * from './repositories/exercises.repository.interface';
+export * from './repositories/muscle-group.repository.interface';
 export * from './entities/exercise-difficulty';
 export * from './entities/exercise-equipment';
 export * from './entities/exercise-force-type';

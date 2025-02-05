@@ -29,7 +29,7 @@ export class ExerciseEntity {
   difficulty: ExerciseDifficulty;
 
   @Enum(() => ExerciseForceType)
-  forceType: ExerciseForceType;
+  forceType: ExerciseForceType; // nullable
 
   @Enum(() => ExerciseType)
   exerciseType: ExerciseType;

@@ -1,5 +1,5 @@
 import { NestFactory } from '@nestjs/core';
-import { WorkoutJournalAdminModule } from './workout-journal-admin.module';
+import { WorkoutJournalAdminModule } from './admin/workout-journal-admin.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(WorkoutJournalAdminModule);

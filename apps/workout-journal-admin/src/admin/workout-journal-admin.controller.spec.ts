@@ -15,10 +15,4 @@ describe('WorkoutJournalAdminController', () => {
       WorkoutJournalAdminController,
     );
   });
-
-  describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(workoutJournalAdminController.getHello()).toBe('Hello World!');
-    });
-  });
 });
