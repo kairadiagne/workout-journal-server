@@ -1,54 +1,30 @@
+import { defineEntity, p } from '@mikro-orm/postgresql';
+import { v4 as uuidv4 } from 'uuid';
 import { ExerciseDifficulty } from './exercise-difficulty';
 import { ExerciseForceType } from './exercise-force-type';
 import { ExerciseType } from './exercise-type';
 import { ExerciseMechanic } from './exercise-mechanic';
 import { ExerciseEquipment } from './exercise-equipment';
-import {
-  Entity,
-  Enum,
-  ManyToOne,
-  OneToOne,
-  PrimaryKey,
-  Property,
-} from '@mikro-orm/core';
-import { v4 as uuidv4 } from 'uuid';
 import { MuscleGroupEntity } from './muscle-group.entity';
 
-@Entity()
-export class ExerciseEntity {
-  @PrimaryKey({ type: 'number', autoincrement: true })
-  id!: number;
+const ExerciseSchema = defineEntity({
+  name: 'ExerciseEntity',
+  properties: {
+    id: p.integer().primary().autoincrement(),
+    publicId: p.uuid().unique(),
+    name: p.string(),
+    difficulty: p.enum(() => ExerciseDifficulty),
+    forceType: p.enum(() => ExerciseForceType),
+    exerciseType: p.enum(() => ExerciseType),
+    mechanic: p.enum(() => ExerciseMechanic),
+    equipment: p.enum(() => ExerciseEquipment),
+    muscleGroup: p.manyToOne(() => MuscleGroupEntity).eager(),
+    primaryMuscles: p.array(),
+    secondaryMuscles: p.array(),
+  },
+});
 
-  @Property({ type: 'uuid', unique: true })
-  publicId: string;
-
-  @Property()
-  name: string;
-
-  @Enum(() => ExerciseDifficulty)
-  difficulty: ExerciseDifficulty;
-
-  @Enum(() => ExerciseForceType)
-  forceType: ExerciseForceType; // nullable
-
-  @Enum(() => ExerciseType)
-  exerciseType: ExerciseType;
-
-  @Enum(() => ExerciseMechanic)
-  mechanic: ExerciseMechanic;
-
-  @Enum(() => ExerciseEquipment)
-  equipment: ExerciseEquipment;
-
-  @ManyToOne(() => MuscleGroupEntity, { eager: true })
-  muscleGroup: MuscleGroupEntity;
-
-  @Property()
-  primaryMuscles: string[];
-
-  @Property()
-  secondaryMuscles: string[];
-
+export class ExerciseEntity extends ExerciseSchema.class {
   constructor(
     name: string,
     difficulty: ExerciseDifficulty,
@@ -61,6 +37,7 @@ export class ExerciseEntity {
     secondaryMuscles: string[] = [],
     publicId: string = uuidv4(),
   ) {
+    super();
     this.publicId = publicId;
     this.name = name;
     this.difficulty = difficulty;
@@ -73,3 +50,5 @@ export class ExerciseEntity {
     this.secondaryMuscles = secondaryMuscles;
   }
 }
+
+ExerciseSchema.setClass(ExerciseEntity);

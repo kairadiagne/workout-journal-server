@@ -4,7 +4,7 @@ import { ExercisesController } from './exercises.controller';
 import { DatabaseModule } from '@workoutjournal/database';
 
 @Module({
-  imports: [ExercisesModule, DatabaseModule],
+  imports: [DatabaseModule],
   controllers: [ExercisesController],
   providers: [ExercisesService],
 })

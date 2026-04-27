@@ -1,20 +1,22 @@
-import { Entity, Enum, PrimaryKey, Property, Unique } from '@mikro-orm/core';
+import { defineEntity, p } from '@mikro-orm/postgresql';
 import { v4 as uuidv4 } from 'uuid';
 import { MuscleGroup } from './muscle-group';
 
-@Entity()
-export class MuscleGroupEntity {
-  @PrimaryKey({ type: `number`, autoincrement: true })
-  id!: number;
+const MuscleGroupSchema = defineEntity({
+  name: 'MuscleGroupEntity',
+  properties: {
+    id: p.integer().primary().autoincrement(),
+    publicId: p.uuid().unique(),
+    type: p.enum(() => MuscleGroup),
+  },
+});
 
-  @Property({ type: `uuid`, unique: true })
-  publicId: string;
-
-  @Enum(() => MuscleGroup)
-  type: MuscleGroup;
-
+export class MuscleGroupEntity extends MuscleGroupSchema.class {
   constructor(type: MuscleGroup, publicId: string = uuidv4()) {
+    super();
     this.type = type;
     this.publicId = publicId;
   }
 }
+
+MuscleGroupSchema.setClass(MuscleGroupEntity);
