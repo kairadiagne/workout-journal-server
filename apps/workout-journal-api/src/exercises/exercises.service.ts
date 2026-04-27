@@ -23,7 +23,7 @@ export class ExercisesService {
       return exercises.map((exercise) => {
         return ExerciseResponseDTO.fromEntity(exercise);
       });
-    } catch (error) {
+    } catch {
       throw new InternalServerErrorException();
     }
   }

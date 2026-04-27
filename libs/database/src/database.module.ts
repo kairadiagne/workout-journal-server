@@ -13,7 +13,9 @@ import { MuscleGroupRepository } from './repositories/muscle-group.repository';
 
 @Module({
   imports: [
-    MikroOrmModule.forRoot(mikroORMConfig as unknown as MikroOrmModuleSyncOptions),
+    MikroOrmModule.forRoot(
+      mikroORMConfig as unknown as MikroOrmModuleSyncOptions,
+    ),
     MikroOrmModule.forFeature([ExerciseEntity, MuscleGroupEntity]),
   ],
   providers: [

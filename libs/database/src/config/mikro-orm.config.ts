@@ -2,7 +2,7 @@ import { defineConfig } from '@mikro-orm/postgresql';
 import { SeedManager } from '@mikro-orm/seeder';
 import { ExerciseEntity, MuscleGroupEntity } from '@workoutjournal/exercises';
 
-require('dotenv').config();
+import 'dotenv/config';
 
 export default defineConfig({
   host: process.env.POSTGRES_HOST!,

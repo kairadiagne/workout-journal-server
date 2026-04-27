@@ -3,7 +3,7 @@ import { WorkoutJournalAdminController } from './workout-journal-admin.controlle
 import { WorkoutJournalAdminService } from './workout-journal-admin.service';
 
 describe('WorkoutJournalAdminController', () => {
-  let workoutJournalAdminController: WorkoutJournalAdminController;
+  let _workoutJournalAdminController: WorkoutJournalAdminController;
 
   beforeEach(async () => {
     const app: TestingModule = await Test.createTestingModule({
@@ -11,7 +11,7 @@ describe('WorkoutJournalAdminController', () => {
       providers: [WorkoutJournalAdminService],
     }).compile();
 
-    workoutJournalAdminController = app.get<WorkoutJournalAdminController>(
+    _workoutJournalAdminController = app.get<WorkoutJournalAdminController>(
       WorkoutJournalAdminController,
     );
   });

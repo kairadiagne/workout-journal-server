@@ -28,4 +28,3 @@ export class ExercisesRepository implements IExercisesRepository {
     await this.exerciseRepository.upsert(exercise);
   }
 }
-

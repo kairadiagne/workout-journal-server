@@ -19,7 +19,6 @@ COPY apps/workout-journal-admin ./apps/workout-journal-admin/
 COPY libs ./libs
 COPY nest-cli.json ./
 
-
 # Expose the API port
 EXPOSE 3001
 

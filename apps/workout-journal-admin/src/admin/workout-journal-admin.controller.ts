@@ -8,7 +8,7 @@ export class WorkoutJournalAdminController {
   ) {}
 
   @Post('importexercises')
-  importExercises() {
-    this.workoutJournalAdminService.importExercises();
+  importExercises(): Promise<void> {
+    return this.workoutJournalAdminService.importExercises();
   }
 }
