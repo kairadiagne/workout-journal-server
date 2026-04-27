@@ -3,19 +3,13 @@ import mikroORMConfig from './config/mikro-orm.config';
 import { MikroOrmModule } from '@mikro-orm/nestjs';
 import type { MikroOrmModuleSyncOptions } from '@mikro-orm/nestjs';
 import { ExercisesRepository } from './repositories/exercises.repository';
-import {
-  ExerciseEntity,
-  EXERCISES_REPOSITORY,
-  MuscleGroupEntity,
-} from '@workoutjournal/exercises';
+import { ExerciseEntity, EXERCISES_REPOSITORY, MuscleGroupEntity } from '@workoutjournal/exercises';
 import { MUSCLE_GROUP_REPOSITORY } from '@workoutjournal/exercises/repositories/muscle-group.repository.interface';
 import { MuscleGroupRepository } from './repositories/muscle-group.repository';
 
 @Module({
   imports: [
-    MikroOrmModule.forRoot(
-      mikroORMConfig as unknown as MikroOrmModuleSyncOptions,
-    ),
+    MikroOrmModule.forRoot(mikroORMConfig as unknown as MikroOrmModuleSyncOptions),
     MikroOrmModule.forFeature([ExerciseEntity, MuscleGroupEntity]),
   ],
   providers: [

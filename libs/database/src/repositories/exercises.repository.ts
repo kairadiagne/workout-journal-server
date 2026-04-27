@@ -1,11 +1,7 @@
 import { InjectRepository } from '@mikro-orm/nestjs';
 import { EntityRepository } from '@mikro-orm/postgresql';
 import { Injectable } from '@nestjs/common';
-import {
-  ExerciseEntity,
-  IExercisesRepository,
-  MuscleGroupEntity,
-} from '@workoutjournal/exercises';
+import { ExerciseEntity, IExercisesRepository, MuscleGroupEntity } from '@workoutjournal/exercises';
 
 @Injectable()
 export class ExercisesRepository implements IExercisesRepository {
@@ -21,9 +17,7 @@ export class ExercisesRepository implements IExercisesRepository {
   }
 
   async upsert(exercise: ExerciseEntity): Promise<void> {
-    const muscleGroup = await this.muscleGroupRepository.getReference(
-      exercise.muscleGroup.id,
-    );
+    const muscleGroup = await this.muscleGroupRepository.getReference(exercise.muscleGroup.id);
     exercise.muscleGroup = muscleGroup;
     await this.exerciseRepository.upsert(exercise);
   }

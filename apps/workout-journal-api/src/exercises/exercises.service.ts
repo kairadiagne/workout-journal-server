@@ -1,13 +1,6 @@
-import {
-  Inject,
-  Injectable,
-  InternalServerErrorException,
-} from '@nestjs/common';
+import { Inject, Injectable, InternalServerErrorException } from '@nestjs/common';
 import { ExerciseResponseDTO } from './exercise-response.dto';
-import {
-  EXERCISES_REPOSITORY,
-  IExercisesRepository,
-} from '@workoutjournal/exercises';
+import { EXERCISES_REPOSITORY, IExercisesRepository } from '@workoutjournal/exercises';
 
 @Injectable()
 export class ExercisesService {

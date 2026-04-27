@@ -1,8 +1,4 @@
-import {
-  Inject,
-  Injectable,
-  InternalServerErrorException,
-} from '@nestjs/common';
+import { Inject, Injectable, InternalServerErrorException } from '@nestjs/common';
 import {
   ExerciseDifficulty,
   ExerciseEntity,
@@ -32,13 +28,8 @@ export class WorkoutJournalAdminService {
 
   async importExercises(): Promise<void> {
     for (const exerciseData of exercisesData) {
-      const muscleGroupValue = toEnum(
-        MuscleGroup,
-        exerciseData.muscle_group,
-        'muscle_group',
-      );
-      const muscleGroup =
-        await this.muscleGroupRepository.findOne(muscleGroupValue);
+      const muscleGroupValue = toEnum(MuscleGroup, exerciseData.muscle_group, 'muscle_group');
+      const muscleGroup = await this.muscleGroupRepository.findOne(muscleGroupValue);
 
       if (!muscleGroup) {
         console.warn(
@@ -52,11 +43,7 @@ export class WorkoutJournalAdminService {
         toEnum(ExerciseDifficulty, exerciseData.difficulty, 'difficulty'),
         toEnum(ExerciseForceType, exerciseData.force_type, 'force_type'),
         toEnum(ExerciseType, exerciseData.exercise_type, 'exercise_type'),
-        toEnum(
-          ExerciseMechanic,
-          exerciseData.exercise_mechanic,
-          'exercise_mechanic',
-        ),
+        toEnum(ExerciseMechanic, exerciseData.exercise_mechanic, 'exercise_mechanic'),
         toEnum(ExerciseEquipment, exerciseData.equipment, 'equipment'),
         muscleGroup,
         exerciseData.primary_muscles || [],
