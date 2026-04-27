@@ -5,11 +5,11 @@ import { ExerciseEntity, MuscleGroupEntity } from '@workoutjournal/exercises';
 require('dotenv').config();
 
 export default defineConfig({
-  host: process.env.POSTGRES_HOST,
-  port: parseInt(process.env.POSTGRES_PORT || '5432', 10),
-  user: process.env.POSTGRES_USER,
-  password: process.env.POSTGRES_PASSWORD,
-  dbName: process.env.POSTGRES_DB,
+  host: process.env.POSTGRES_HOST!,
+  port: parseInt(process.env.POSTGRES_PORT ?? '5432', 10),
+  user: process.env.POSTGRES_USER!,
+  password: process.env.POSTGRES_PASSWORD!,
+  dbName: process.env.POSTGRES_DB!,
   entities: [ExerciseEntity, MuscleGroupEntity],
   debug: true,
   extensions: [SeedManager],

@@ -1,4 +1,4 @@
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Post } from '@nestjs/common';
 import { WorkoutJournalAdminService } from './workout-journal-admin.service';
 
 @Controller('admin')
