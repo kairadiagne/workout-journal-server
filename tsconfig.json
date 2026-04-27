@@ -9,7 +9,6 @@
     "target": "ES2021",
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": ".",
     "incremental": true,
     "skipLibCheck": true,
     "strict": true,
@@ -30,22 +29,11 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "paths": {
-      "@workoutjournal/database": [
-        "libs/database/src"
-      ],
-      "@workoutjournal/database/*": [
-        "libs/database/src/*"
-      ],
-      "@workoutjournal/exercises": [
-        "libs/exercises/src"
-      ],
-      "@workoutjournal/exercises/*": [
-        "libs/exercises/src/*"
-      ]
+      "@workoutjournal/database": ["./libs/database/src"],
+      "@workoutjournal/database/*": ["./libs/database/src/*"],
+      "@workoutjournal/exercises": ["./libs/exercises/src"],
+      "@workoutjournal/exercises/*": ["./libs/exercises/src/*"]
     },
-    "types": [
-      "node",
-      "jest"
-    ]
+    "types": ["node", "jest"]
   }
 }
