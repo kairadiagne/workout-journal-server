@@ -20,6 +20,20 @@ import {
   MUSCLE_GROUP_REPOSITORY,
 } from '@workoutjournal/exercises/repositories/muscle-group.repository.interface';
 
+function toEnum<T extends Record<string, string>>(
+  enumObj: T,
+  value: string,
+  field: string,
+): T[keyof T] {
+  const valid = Object.values(enumObj) as string[];
+  if (!valid.includes(value)) {
+    throw new Error(
+      `Invalid ${field} "${value}". Expected one of: ${valid.join(', ')}`,
+    );
+  }
+  return value as T[keyof T];
+}
+
 @Injectable()
 export class WorkoutJournalAdminService {
   constructor(
@@ -29,11 +43,15 @@ export class WorkoutJournalAdminService {
     private readonly muscleGroupRepository: IMuscleGroupRepository,
   ) {}
 
-  async importExercises() {
+  async importExercises(): Promise<void> {
     for (const exerciseData of exercisesData) {
-      const muscleGroup = await this.muscleGroupRepository.findOne(
-        exerciseData.muscle_group as MuscleGroup,
+      const muscleGroupValue = toEnum(
+        MuscleGroup,
+        exerciseData.muscle_group,
+        'muscle_group',
       );
+      const muscleGroup =
+        await this.muscleGroupRepository.findOne(muscleGroupValue);
 
       if (!muscleGroup) {
         console.warn(
@@ -44,11 +62,15 @@ export class WorkoutJournalAdminService {
 
       const exercise = new ExerciseEntity(
         exerciseData.name,
-        exerciseData.difficulty as ExerciseDifficulty,
-        exerciseData.force_type as ExerciseForceType,
-        exerciseData.exercise_type as ExerciseType,
-        exerciseData.exercise_mechanic as ExerciseMechanic,
-        exerciseData.equipment as ExerciseEquipment,
+        toEnum(ExerciseDifficulty, exerciseData.difficulty, 'difficulty'),
+        toEnum(ExerciseForceType, exerciseData.force_type, 'force_type'),
+        toEnum(ExerciseType, exerciseData.exercise_type, 'exercise_type'),
+        toEnum(
+          ExerciseMechanic,
+          exerciseData.exercise_mechanic,
+          'exercise_mechanic',
+        ),
+        toEnum(ExerciseEquipment, exerciseData.equipment, 'equipment'),
         muscleGroup,
         exerciseData.primary_muscles || [],
         exerciseData.secondary_muscles || [],
@@ -56,9 +78,11 @@ export class WorkoutJournalAdminService {
 
       try {
         await this.exerciseRepository.upsert(exercise);
-        console.log(`✅ Inserted: ${exercise.name}`);
+        console.log(`Inserted: ${exercise.name}`);
       } catch (error) {
-        throw new InternalServerErrorException();
+        throw new InternalServerErrorException(
+          `Failed to upsert exercise "${exercise.name}": ${error instanceof Error ? error.message : String(error)}`,
+        );
       }
     }
   }
