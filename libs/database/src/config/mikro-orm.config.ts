@@ -1,6 +1,7 @@
 import { defineConfig } from '@mikro-orm/postgresql';
 import { SeedManager } from '@mikro-orm/seeder';
 import { ExerciseEntity, MuscleGroupEntity } from '@workoutjournal/exercises';
+import path from 'path';
 
 import 'dotenv/config';
 
@@ -14,12 +15,12 @@ export default defineConfig({
   debug: true,
   extensions: [SeedManager],
   seeder: {
-    path: 'libs/database/src/seeders',
+    path: path.join(__dirname, '../seeders'),
     defaultSeeder: 'DatabaseSeeder',
   },
   migrations: {
     tableName: 'mikro_orm_migrations',
-    path: 'libs/database/src/migrations',
+    path: path.join(__dirname, '../migrations'),
     transactional: true,
     allOrNothing: true,
     snapshot: true,
