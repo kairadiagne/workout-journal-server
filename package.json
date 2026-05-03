@@ -18,6 +18,7 @@
     "start:api:dev": "nest start workout-journal-api --watch",
     "start:api:debug": "nest start workout-journal-api --debug --watch",
     "start:api:prod": "node dist/apps/workout-journal-api/main",
+    "start:api:railway": "npx mikro-orm migration:up && node dist/apps/workout-journal-api/main",
     "start:admin": "nest start workout-journal-admin",
     "start:admin:dev": "nest start workout-journal-admin --watch",
     "start:admin:debug": "nest start workout-journal-admin --debug --watch",
