@@ -101,8 +101,8 @@
   },
   "mikro-orm": {
     "configPaths": [
-      "./libs/database/src/config/mikro-orm.config.ts",
-      "./dist/libs/database/src/config/mikro-orm.config.js"
+      "./dist/libs/database/src/config/mikro-orm.config.js",
+      "./libs/database/src/config/mikro-orm.config.ts"
     ]
   }
 }
